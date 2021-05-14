@@ -1,5 +1,3 @@
-// import { useState, useEffect } from 'react';
-
 import Routes from './Routes';
 
 import './GlobalStyles.scss';
