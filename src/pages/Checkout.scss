@@ -1,0 +1,57 @@
+.checkout-container {
+  text-align: center;
+}
+
+.checkout-layout {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.checkout-checkbag {
+  position: relative;
+  display: block;
+  padding: 1rem;
+  border: 1px solid #0e0e0e;
+  background-color: rgba(187, 187, 187, 0);
+  &:hover {
+    cursor: pointer;
+    opacity: 1;
+    background-color: rgba(187, 187, 187, 1);
+  }
+}
+
+.checkout-header {
+  // font-style: italic;
+  margin-top: 2rem;
+  @media (min-width: 768px) {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+}
+
+.checkout-totals {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.checkout-totalWrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 0 0;
+  h3 {
+    font-weight: 300;
+  }
+  span {
+    display: block;
+  }
+}
+
+.checkout-localTaxMsg {
+  font-size: 12px;
+  margin: 1rem;
+}

@@ -1,0 +1,60 @@
+.checkoutForm-wrap {
+  margin: 2rem;
+  text-align: left;
+}
+
+.checkoutForm-inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+
+  label {
+    font-weight: 600;
+  }
+
+  input {
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+    padding-left: 0;
+    margin: 0.5rem 0 0 0;
+    border: none;
+    outline: none;
+    background: #fcfcfc;
+    border-bottom: 1px solid lightgray;
+    &:focus {
+      outline: none;
+      border-bottom: 1px solid #333;
+    }
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    border-bottom: 1px solid #333;
+    -webkit-text-fill-color: inherit;
+    -webkit-box-shadow: 0 0 0px 1000px inherit inset;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+}
+
+.checkoutForm-paymentBtn {
+  all: unset;
+  padding: 1rem;
+  background: #fcfcfc;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:disabled {
+    opacity: 0.2;
+    &:hover {
+      cursor: default;
+    }
+  }
+}

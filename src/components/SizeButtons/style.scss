@@ -1,0 +1,23 @@
+.sizebuttons-container {
+  margin: 1rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-gap: 1rem;
+}
+
+.sizebuttons-option {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #c0c0c0;
+  &:hover {
+    cursor: pointer;
+    border: 1px solid #0e0e0e;
+  }
+}
+
+.option-active {
+  border: 1px solid #0e0e0e;
+}

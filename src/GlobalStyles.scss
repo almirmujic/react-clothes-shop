@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'Raleway', sans-serif, Arial;
+  border: 5px solid #0e0e0e;
+  background: #fcfcfc;
+  @media (min-width: 768px) {
+    border: none;
+  }
+}
