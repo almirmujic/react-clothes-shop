@@ -2,13 +2,9 @@
   display: relative;
   background: #0e0e0e;
   z-index: 0;
-  text-align: right;
+  text-align: center;
   padding: 4rem 0rem;
-
   margin-top: 6rem;
-  @media (min-width: 768px) {
-    text-align: center;
-  }
 }
 
 .footer-wrap {

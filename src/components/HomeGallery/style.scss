@@ -5,16 +5,12 @@
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1fr 1fr;
-  // grid-template-rows: 1fr 1fr;
-
   @media (min-width: 550px) {
     margin-top: 14rem;
   }
-
   @media (min-width: 1200px) {
     margin-top: 18rem;
   }
-
   @media (min-width: 1440px) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: 1200px;

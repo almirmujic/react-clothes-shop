@@ -7,11 +7,9 @@
   display: flex;
   flex-direction: column;
   margin: 2rem 0;
-
   label {
     font-weight: 600;
   }
-
   input {
     font-size: 18px;
     padding: 0.5rem 1rem;
@@ -46,11 +44,9 @@
   all: unset;
   padding: 1rem;
   background: #fcfcfc;
-
   &:hover {
     cursor: pointer;
   }
-
   &:disabled {
     opacity: 0.2;
     &:hover {
