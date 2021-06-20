@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 1rem;
   margin-bottom: 6rem;
-  @media (min-width: 768px) {
+  @media (min-width: 1050px) {
     align-items: unset;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -18,7 +18,7 @@
   flex-direction: column;
   padding: 1rem;
   margin: 0 auto;
-  @media (min-width: 768px) {
+  @media (min-width: 1050px) {
     position: sticky;
     top: 1rem;
     left: 0;
@@ -29,9 +29,10 @@
 }
 
 .productPage-mainImg {
-  max-width: 430px;
-  max-height: 762px;
-  @media (min-width: 768px) {
+  max-height: 432px;
+  object-fit: contain;
+  @media (min-width: 1050px) {
+    max-height: unset;
     max-width: 580px;
     padding: 0rem 1rem 1rem 1rem;
   }
@@ -42,7 +43,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   margin-top: 1rem;
-  @media (min-width: 768px) {
+  @media (min-width: 1050px) {
     margin-top: 0;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fill, 80px);
